@@ -14,7 +14,7 @@ double cpu_time_used;
 
 int main(){
     long double n;
-    printf("Given your number\n");
+    printf("Input your number\n");
     scanf("%Lf", &n);
     start = clock();
     printf("The factorial of this number is: %Lf\n", factorial(n));
